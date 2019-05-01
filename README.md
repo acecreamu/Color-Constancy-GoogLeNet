@@ -14,3 +14,6 @@ Running the code requires having installed pre-trained GoogLeNet model. (Can be 
 Most of the operations required for modification the network, loading the data, and performing  a training, is contained in `main.m`.
 
 `angularRegressionLayerL#.m` contains description of regression layers with custom loss function. Which one to use can be specified in main.m, line 7 (L2 by default).
+
+#### real_illum_11346_Normalized.mat
+This file contains original illumination vectors real_illum_11346.mat normalized by their length (so the new length is unit).
